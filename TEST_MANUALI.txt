@@ -1,0 +1,28 @@
+CHECKLIST DA ESEGUIRE SUL SITO NETLIFY PUBBLICATO
+Questi controlli NON risultano eseguiti nel browser in questa sessione.
+Il browser automatico dell'ambiente impedisce URL locali/file:// (policy amministrativa URLBlocklist=*).
+
+FUNZIONI (Chrome/Edge e browser mobile)
+[ ] Apri il sito con viewport 320, 375, 390, 768 e 1280 px: nessuno scroll orizzontale.
+[ ] Scegli PFP5, passa a PFP2 e torna a PFP5: contenuti specifici e fonti si aggiornano.
+[ ] Segna un tema come Studiato, aggiorna la pagina: lo stato rimane salvato.
+[ ] Apri Quiz > solo PFP > 5 domande. Rispondi a tutte: score e spiegazioni compaiono.
+[ ] Sbaglia almeno una risposta, poi usa Ripassa gli errori.
+[ ] Scegli una esercitazione, spunta due criteri, scrivi appunti e salva.
+[ ] Aggiorna: l'ultima valutazione e gli appunti risultano conservati.
+[ ] Scarica il backup JSON, poi azzera (con conferma) e importa il file: progressi recuperati.
+[ ] Prova il piano, aprendo/chiudendo le 4 settimane e modificando gli stati.
+[ ] Ricerca una parola nei 21 capitoli; in Lettura rapida la ricerca deve tornare al testo esteso.
+[ ] Aumenta testo, attiva contrasto alto, aggiorna: preferenze conservate.
+[ ] Verifica i link esterni alle fonti e alla bibliografia, incluso il bando aggiornato.
+
+ACCESSIBILITÀ
+[ ] Percorri tutto il sito solo con TAB e MAIUSC+TAB: focus sempre visibile.
+[ ] Usa invio/spazio su radio, menu, checkbox, select e pulsanti.
+[ ] Prova VoiceOver (iOS/macOS) o TalkBack (Android), con lettura di domande e feedback.
+[ ] Con zoom browser al 200%, nessun controllo essenziale deve essere nascosto.
+[ ] Prova il sito in modalità contrasto elevato e con preferenza per movimento ridotto.
+[ ] Leggi il sito con una persona con dislessia lieve: raccogli preferenze su testo, densità e flusso.
+
+ATTENZIONE
+Questo documento è una checklist, non una certificazione WCAG 2.2 AA.

@@ -1,0 +1,99 @@
+{
+  "passed": 22,
+  "total": 22,
+  "tests": {
+    "unique_html_ids": {
+      "passed": true,
+      "details": "93"
+    },
+    "platform_sections": {
+      "passed": true,
+      "details": "['studio', 'quiz', 'laboratorio', 'progressi']"
+    },
+    "discrepancies_last": {
+      "passed": true,
+      "details": "discrepanze"
+    },
+    "original_21_chapters": {
+      "passed": true,
+      "details": "21 topics"
+    },
+    "original_chapters_unchanged": {
+      "passed": true,
+      "details": "Text remains unchanged after platform integration"
+    },
+    "original_resources_kept": {
+      "passed": true,
+      "details": "22 references"
+    },
+    "original_video_kept": {
+      "passed": true,
+      "details": "4"
+    },
+    "discrepancies_kept": {
+      "passed": true,
+      "details": "8 checks"
+    },
+    "response_scale": {
+      "passed": true,
+      "details": "mobile/tablet/print styles"
+    },
+    "accessible_focus": {
+      "passed": true,
+      "details": "focus outline"
+    },
+    "reduced_motion": {
+      "passed": true,
+      "details": "reduced motion CSS"
+    },
+    "no_external_scripts": {
+      "passed": true,
+      "details": "only local scripts"
+    },
+    "keyboard_forms": {
+      "passed": true,
+      "details": "semantic inputs"
+    },
+    "privacy_notice": {
+      "passed": true,
+      "details": "local progress explained"
+    },
+    "tooltips_not_only_color": {
+      "passed": true,
+      "details": "labels and text"
+    },
+    "missing_internal_links": {
+      "passed": true,
+      "details": "internal anchor target integrity"
+    },
+    "local_storage_catch": {
+      "passed": true,
+      "details": "fail-safe storage handling"
+    },
+    "syntax_app.js": {
+      "passed": true,
+      "details": "ok"
+    },
+    "syntax_study-data.js": {
+      "passed": true,
+      "details": "ok"
+    },
+    "syntax_studio.js": {
+      "passed": true,
+      "details": "ok"
+    },
+    "question_bank_integrity": {
+      "passed": true,
+      "details": "{\n  \"status\": \"OK\",\n  \"questions\": 60,\n  \"common\": 24,\n  \"perProfile\": 12,\n  \"topicCount\": 52,\n  \"drillCount\": 14,\n  \"questionTopics\": {\n   "
+    },
+    "primary_contrast_AA": {
+      "passed": true,
+      "details": "[13.18, 7.43, 8.24]"
+    }
+  },
+  "limitations": [
+    "Browser automatico non eseguito in questo ambiente: policy Chromium URLBlocklist=* blocca URL locali e file://.",
+    "La verifica non equivale a certificazione WCAG 2.2 AA; richiesti controlli con lettori di schermo e utenti reali.",
+    "I quesiti e gli esercizi sono contenuti didattici originali, non quesiti ufficiali."
+  ]
+}

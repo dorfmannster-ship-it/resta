@@ -1,0 +1,14 @@
+VERIFICA TECNICA DEL PROGETTO · 22/11/2026
+
+22 / 22 controlli statici superati (dettagli in VERIFICA_PIATTAFORMA.json):
+- integrità di HTML e ID; collegamenti interni
+- mantenimento integrale dei 21 capitoli originali, 22 riferimenti, 4 video, 8 discrepanze
+- presenza delle 4 sezioni della piattaforma e discrepanze in fondo
+- validità sintattica JavaScript, nessun JavaScript esterno
+- integrità di 60 domande, 52 argomenti, 14 esercitazioni
+- CSS responsivo, stati focus e movimento ridotto
+- contrasti principali calcolati: 13,18:1, 7,43:1, 8,24:1
+- salvaguardia locale dei dati prevista nel codice
+
+LIMITAZIONI
+Le prove end-to-end nel browser non sono state completate per un blocco di navigazione imposto al browser locale dell'ambiente. Le verifiche di accessibilità effettuate sono preliminari e non una certificazione WCAG. Dopo il deploy usare la checklist TEST_MANUALI.txt.
