@@ -12,10 +12,11 @@ index.html       contenuti del sito e della guida esistente
 styles.css       design responsivo, lettura agevolata, contrasto elevato
 app.js           navigazione, ricerca e personalizzazione lettura
 study-data.js    60 domande originali, 52 argomenti, 14 esercitazioni
-studio.js        quiz, pratica, stato studio, salvataggio locale, backup
+study-store.js   salvataggi IndexedDB, migrazione da localStorage e backup
+studio.js        quiz, pratica, stato di studio e interfaccia dei backup
 _headers         intestazioni sicurezza Netlify
 favicon.svg      icona
-VERIFICA_PIATTAFORMA.json  22 controlli tecnici statici (superati)
+VERIFICA_PIATTAFORMA.json  risultati dei controlli statici dell’edizione iniziale
 TEST_MANUALI.txt           scenari da verificare sul sito pubblicato
 
 FUNZIONI
@@ -27,7 +28,10 @@ FUNZIONI
 - Piano editoriale flessibile di 4 settimane con 52 argomenti
 - Stati degli argomenti: Da iniziare, In corso, Studiato
 - Dashboard e progressi locali nel browser
-- Backup JSON (esporta, importa, azzera dopo conferma)
+- Quiz brevi e pausa con ripresa nella stessa scheda, anche dopo aver ricaricato
+- Esercizi a passaggi, autovalutazione e bozze per singola attività
+- Dimensione testo, interlinea, spaziatura, contrasto e ripresa della guida
+- Backup JSON, preferenze facoltative, recupero dello stato precedente
 - Conservati: 21 capitoli, 22 fonti, 4 video, 8 discrepanze
 
 LIMITI E TRASPARENZA
@@ -35,7 +39,10 @@ LIMITI E TRASPARENZA
 - NON contiene domande d’esame autentiche né valutazioni ufficiali.
 - Le attività sono proposte editoriali su facsimili e riproduzioni.
 - Per programma, prove, date, titoli e accesso conta sempre il bando vigente.
-- I dati vengono salvati nel localStorage del singolo browser, non nel cloud.
+- I dati sono locali all’origine del sito nel singolo browser. La prima apertura importa i dati v1 dallo stesso dominio.
+- Per passare da un dominio, browser o dispositivo a un altro, esporta e importa un backup.
+- I backup generati dalla versione iniziale possono essere importati. Gli aggiornamenti in due schede usano lo stesso archivio.
+- Dopo un’importazione o un azzeramento puoi recuperare lo stato precedente dal pannello dei backup.
 - Una navigazione in incognito, cancellazione dati o cambio di browser possono azzerare i progressi.
 - I backup possono contenere appunti personali: conservarli in modo privato.
 - Non è previsto account, backend né tracciamento di terze parti.

@@ -1,19 +1,22 @@
 CHECKLIST DA ESEGUIRE SUL SITO NETLIFY PUBBLICATO
-Questi controlli NON risultano eseguiti nel browser in questa sessione.
-Il browser automatico dell'ambiente impedisce URL locali/file:// (policy amministrativa URLBlocklist=*).
+Ripetere sul dominio Netlify di anteprima e su dispositivi fisici.
 
 FUNZIONI (Chrome/Edge e browser mobile)
 [ ] Apri il sito con viewport 320, 375, 390, 768 e 1280 px: nessuno scroll orizzontale.
 [ ] Scegli PFP5, passa a PFP2 e torna a PFP5: contenuti specifici e fonti si aggiornano.
 [ ] Segna un tema come Studiato, aggiorna la pagina: lo stato rimane salvato.
 [ ] Apri Quiz > solo PFP > 5 domande. Rispondi a tutte: score e spiegazioni compaiono.
-[ ] Sbaglia almeno una risposta, poi usa Ripassa gli errori.
+[ ] Sbaglia una risposta e controlla l’etichetta testuale dell’opzione corretta. Usa Ripassa gli errori di questo quiz.
+[ ] Metti in pausa il quiz, aggiorna la scheda e verifica domanda, scelta e punteggio dopo la ripresa.
 [ ] Scegli una esercitazione, spunta due criteri, scrivi appunti e salva.
-[ ] Aggiorna: l'ultima valutazione e gli appunti risultano conservati.
-[ ] Scarica il backup JSON, poi azzera (con conferma) e importa il file: progressi recuperati.
+[ ] Aggiorna: l’ultima valutazione e gli appunti risultano conservati. Cambia esercizio con una bozza e ritrovala al ritorno.
+[ ] Attiva Un passaggio alla volta e torna alla consegna dagli appunti.
+[ ] Scarica il backup JSON, azzera e importa il file. Prova anche Ripristina lo stato precedente.
+[ ] Importa un backup v1 valido e verifica che un file contenente solo la versione non sostituisca i dati.
+[ ] Apri due schede e modifica un argomento diverso in ciascuna. Ricarica e verifica che entrambi restino salvati.
 [ ] Prova il piano, aprendo/chiudendo le 4 settimane e modificando gli stati.
 [ ] Ricerca una parola nei 21 capitoli; in Lettura rapida la ricerca deve tornare al testo esteso.
-[ ] Aumenta testo, attiva contrasto alto, aggiorna: preferenze conservate.
+[ ] Imposta dimensione, interlinea, spaziatura e contrasto elevato. Ricarica e prova a includere le preferenze nel backup.
 [ ] Verifica i link esterni alle fonti e alla bibliografia, incluso il bando aggiornato.
 
 ACCESSIBILITÀ
